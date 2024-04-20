@@ -1,0 +1,48 @@
+*{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+/** Code to place logo at Center */
+.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+ .topnav{
+        text-align:end;
+    }
+
+#motto{
+text-align: center;
+font-family: cursive;
+}
+
+h1{
+    color: goldenrod;
+}
+
+.contactt{
+    line-height: 30px;
+    
+}
+
+#intro{
+    background-color: grey;
+    font-family: sans-serif, serif;
+}
+#motto{
+text-align: center;
+font-family: cursive;
+}
+nav{
+   font-weight: bold;
+}
+
+/** CSS section for seller.html */
+#sheader{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
