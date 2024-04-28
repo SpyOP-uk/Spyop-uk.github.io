@@ -11,17 +11,39 @@
   <img src="https://i.ibb.co/19vbvnB/Himalaya-logo.png" alt="Logo of de Himalaya Automotive and car sales" 
   width="200" height="200" class="center"/> 
   <b><p id="motto"> Redefine your drive</p></b><br>
+
+  <!-- Top navigation for the homepage-->
+
+
   <div class="topnav">
-    <a class="active" href="#home">Home</a>
     <a href="#about">About</a>
-    <a href="#contact">Contact</a> 
+    <a href="#contact_us">Contact us</a> 
     <br>
     <br>
-    <input type="text" placeholder="Search..">
+  </div>
+
+  <!-- Creating search bar-->
+  <form id="searchForm" class="topnav">
+    <label for="searchQuery"></label>
+    <input type="text" id="searchQuery" name="searchQuery" placeholder="Enter car model or location">
+    <button class="login-button" type="submit">Search</button>
+  </form>
+  
+<div id="filteredCars" style="font-size: large; color: maroon; text-align: center;">
+    <!-- Search results will be displayed here -->
+</div>
+<br>
+<br>
+
+
+
+<!-- Introdcution to the company-->
+
+
   </div>
     <section class="discription"></section>
  <h1>de Himalaya </h1>
-  <pre id="intro">
+  <p id="intro" style="text-align: justify; line-height: 1.5;">
   Welcome to digital space of "de Himalaya", where you can find your companion 
   for your every adventure. Be it a Renting, Selling or Buying any new or used cars. 
   Make it drive to your home.
@@ -38,40 +60,176 @@
   Join us at de Himalaya and embark on a journey where every curve of the road holds the promise of 
   excitement, reliability, and unparalleled service. Discover the thrill of the drive like never before
   with de Himalaya — where the summit of automotive excellence awaits.
-  </pre>
+  </p>
 </section>
+
+<!-- A naviagtion to register of login -->
+
 <nav>
-  <p> <em></em>Please follow the link to naviagte </em></p>
+  <marquee behavior='alternate';><h3 style="color: darkblue;"> Want to sell your car? we got you</h3></marquee>
+  <p> <em>Please follow the link to naviagte </em></p>
   <ul>
-    <li>Click the button below if you are new here!</li>
+    <li><h4>Click the button below if you are new here!</h4></li>
     <br>
-    <a href="seller_reg.html" style="padding: 5px 5px; background-color: #007bff; color: #fff; text-decoration: none;">Create an new account</a>
+    <a href="seller_reg.html"><button class="login-button">Create an new account</button></a>
     <br>
     <br>
-    <p> Already a member? Go directly to</p>
-    <li><a href="Seller_login.html"> Buyer's page</a></li>
+    <li><h4>Already a member? Go directly to </h4></li> <br>
+    <a href="seller_login.html"><button class="login-button">Seller Login</button></a></li>
   </ul>
 </nav>
+<br>
+<!-- About us and contact us-->
+<h2> About us</h2>
 <div id="about">
-    <pre id="intro">
-    We are the leading online car delarship in Australia. Currently engaged with 1800 concurrent custoemrs.
-    </pre>
+    <p>
+    We are the leading online car delarship in Australia. Currently engaged with 1800 
+    concurrent custoemrs in Autrlia and two hundred thousand cars sold world wide.
+
+    The basic idea of the establishing idea was first came from our C.E.O Mr.
+    Prishab Manandha and his best friend Manan pradhan with in their hoemtown 
+    in Nepal. Thats is where the name "de Himalaya" came from. But sadly right after 
+    registering the company our co-founder died but we would like to remember him in this
+    opportunities. 
+
+    We hope you are ready to choose us as your one stop solution for car and stuff. We 
+    are ready to get you onboard.
+
+    </p>
   </section>
 </div>
 
-<!-- Contact us section-->
+<!-- Code to make the CMO and CEO side by side 
+ Ceo and CMo-->
 
+<h3>Let you go through our team</h3>
+<div class="container">
+  <div class="column">
+
+  <p>Meet our C.E.O</p>
+
+  <img src="https://i.pinimg.com/474x/81/02/6b/81026bded69d79a8bfd5b7be0721131b.jpg" width="200" 
+   alt="Picture of de Himalaya's CEO">
+
+  <p><strong>Mr Prisabh Manandhar</strong></p>
+  <p>Greetings,</p>
+
+  <p>Welcome to de Himalaya, where adventure meets excellence. We're thrilled to have you
+  with us on this journey. Our commitment to innovation and sustainability drives us forward,
+  ensuring every drive is not just exhilarating but also eco-conscious. From our diverse
+  vehicle selection to our unwavering service, we're here to make your automotive experience exceptional.
+  Join us, and let's explore the summit of automotive excellence together.</p>
+  </div>
+  <div class="column">
+  <p>Let's hear What our C.M.O has to say</p>
+
+  <img src="https://i.pinimg.com/474x/af/f7/07/aff70779ddf9d5a1491e4a56518c0e84.jpg" width="150" 
+   height="170" alt="Picture of de Himalaya's CMO">
+
+   <p><strong>Mr David Beckham</strong></p>
+
+   <p>Welcome to de Himalaya! As the Chief Marketing Officer, I'm thrilled to have you with us. 
+   Our mission is simple: to make your car-buying journey as seamless and memorable as possible.
+   From browsing our selection to driving off in your dream car, we're here to ensure your experience 
+   is top-notch. Transparency, reliability, and customer satisfaction are at the heart of everything we do.
+
+   Thank you for choosing de Himalaya. We're excited to be part of your journey.
+</p>
+</div></div>
+<br>
+<br>
+
+<!-- Remainign team memebrs photos-->
+
+<div class="container1">
+<div class="column1">
+
+<h4> Here is our marketing team</h4>
+<img src="https://i.pinimg.com/474x/6a/7c/a4/6a7ca4cdd51759a175ca65429743f5fa.jpg" width="200" 
+alt="Marketing team of de Himalaya">
+</div>
+
+<div class="column1">
+<h4> Our ASos and customer service team</h4>
+<img src="https://i.pinimg.com/474x/c1/54/96/c1549621e2db6f5c145992d05309f168.jpg" 
+alt= "De Himalaya's customer service team" width="200">
+</div>
+
+<div class="column1">
+<h4>A mandatory holiday team photo </h4>
+<img src="https://i.pinimg.com/564x/1b/76/8e/1b768eaa496562a1fc178633ac112a95.jpg" width="200"
+alt="Group photo of de Himalaya on team holidays">
+</div>
+</div>
+<br>
+<br><br>
 <div>
-  <section id="contact"> 
+
+
+<!-- Other team memebers-->
+
+<h3 style="text-align: center; color: green; font-weight: bold;">Our board of directors</h4>
+<table class="staff_table">
+  <tr>
+  <th> Name </th> <th>Position</th>
+</tr>
+<tr>
+  <td>Jessica Lee</td>
+  <td>Chief Financial Officer (CFO)</td>
+</tr>
+<tr>
+  <td>Rajesh Patel</td>
+  <td>Chief Technology Officer (CTO)</td>
+</tr>
+<tr>
+  <td>Elena Rodriguez</td>
+  <td>Head of Sales</td>
+</tr>
+<tr>
+  <td>Emily Chen</td>
+  <td>Head of Customer Experience</td>
+</tr>
+<tr>
+  <td>Amir Khan</td>
+  <td>Head Of Operations</td>
+</tr>
+<tr>
+  <td>Sophia Nguyen</td>
+  <td>Head of Human Resource</td>
+</tr>
+<tr>
+  <td>Rachel Smith</td>
+  <td>Maketing Manager</td>
+</tr>
+<tr>
+  <td> Andrew Thompson</td>
+  <td> Sales Manager</td>
+</tr>
+</table>
+</div>
+
+<br>
+<!-- Contact us section-->
+<br>
+<div>
+  <section id="contact_us"> 
     <P style="font-weight: bold;"> Contact us on:</P>
     <pre class="contactt">
-      <b>Phone no:</b><em>0433187323 </em>
-      <b>Email:</b> ukesh.khadka005@gmail.com or just <a href="mailto:ukesh.khadka004@gmail.com">click here.</a>
-      <b>Location:</b><em>Level 1, 5 Fussel Lane, Gunghalin</em>
+      <b>Phone no:</b>     0433187323
+      <b>Email:</b>           ukesh.khadka005@gmail.com or just <a href="mailto:ukesh.khadka004@gmail.com">click here.</a>
+      <b>Location:</b>      Level 1, 5 Fussel Lane, Gunghalin
+      <b>Fax:</b>              044233454
+
     </pre>
   </section>
 </div>
-<p id="footer" style="text-align:center; font-size: 10px; font-style: italic;"> Copyright &copy; Ukesh Khadka (Cihe22545)</p>
+<br>
+<div>
+<p id="footer" style="text-align:center; font-size: 10px; font-style: italic;">
+   Copyright &copy; Ukesh Khadka (Cihe22545)</p>
+</div>
+
+
 </body>
 
 </html>

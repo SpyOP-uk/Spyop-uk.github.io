@@ -3,17 +3,28 @@
     margin-right: 20px;
     font-family: sans-serif;
 }
-/** Code to place logo at Center */
-.center{
+
+/**Top section of the homepage */
+a:link{ 
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+.center{ /** Code to place logo at Center **/
         display: block;
         margin-left: auto;
-        margin-right: auto;
-    }
+        margin-right: auto; }  
 
- .topnav{
+.topnav{
         text-align:end;
-    }
-
+}
+#filteredcars{ /* To placet rhe search result at the center*/
+    text-align: center;
+    color: aquamarine;
+    font-weight: bold;
+}
 #motto{
 text-align: center;
 font-family: cursive;
@@ -23,26 +34,117 @@ h1{
     color: goldenrod;
 }
 
+
+
+#intro{
+    background: rgb(200, 200, 200);
+    font-family: sans-serif, serif;
+    padding: 5px 5px;
+}
+
+
+
+
+/** About us section*/
+
+#about{
+    text-align: justify;
+    background: rgb(200, 200, 200);
+    padding: 2px 2px;
+    line-height: 1.5;
+}
+
+
+/** photos of team members and the table format */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .column {
+    width: 50%;
+    padding: 20px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    background-color: rgba(18, 65, 65, 0.1);
+  }
+  .column img {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  .column strong {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .column p {
+    text-align: justify;
+  }
+.container1{
+ display: flex;
+ align-items: flex-start;
+}
+.column1{
+    width: auto;
+    border-radius: 50px;
+}
+.column1 img {
+  display: block;
+  margin-left: 100px;
+}
+
+.column1 h4{
+    margin-left: 100px;
+}
+
+ /** Staff Name table */
+
+.staff_table {
+    border: 1px solid black;
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+ }
+.staff_table th, .staff_table tr{
+    border: 1px solid black;
+    padding-left: 8px;
+    text-align: center;
+}
+.staff_table th{
+    background-color: rgb(185, 183, 183);
+    width: 50px;
+}
+
 .contactt{
     line-height: 30px;
     
 }
 
-#intro{
-    background-color: grey;
-    font-family: sans-serif, serif;
-}
-#motto{
-text-align: center;
-font-family: cursive;
-}
-nav{
-   font-weight: bold;
-}
-
 /** CSS section for seller.html */
+
 #sheader{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    color: gray;
+}
+/*To make the button change color when mouse is hovering over it*/
+.login-button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.login-button:hover {  /* Changes the button while hovering */
+    background-color: lightblue;
+  }
+
+/* To change the BG colour of inout field when clicked */
+
+input[type=number]:focus, input[type=tel]:focus, 
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus{
+    background-color: yellow;
 }

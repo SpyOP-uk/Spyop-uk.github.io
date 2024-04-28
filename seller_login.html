@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <script src="script.js"r></script>
 <head>
   <meta charset="UTF-8">
   <title> Seller login</title>
@@ -16,24 +16,25 @@
 
   <!--Details/Form for sellers details-->
 
-  <div id="seller_login">
+  <div id="seller_input">
   <section>
     <br>
     <h1> Please enter your login details</h1>
     <hr>
-    <form method="post">
+<form method="post" action="seller.html" onsubmit="return validateLoginForm()">
 
   <label for="username">Enter your Username</label><br>
-  <input type="char" id="username" name="username">
+  <input type="text" id="username" name="username">
   <br>
 
   <label for="password">Password</label> <br>
-  <input type="password" id="password" name="password">
+  <input type="password" id="password" name="password" pattern="(?=.*[? $ # @]).{6,10}" 
+  title="Password must be 6-10 characters long and contain a mix of alphabets, digits, and special characters (@, $, #, ?).">
   <br>
   <br>
-  <a href="seller.html" style="text-decoration: none; padding: 5px 5px; 
-   background-color: #007bff; color: #fff; border: none; 
-   border-radius: 5px; cursor: pointer;">Login</a>
+  <nav>
+  <button class="login-button">Login</button></a>
+  </nav>
   <hr>
 
   <!--Adding homepage link-->
